@@ -1,0 +1,84 @@
+/*body {
+    color: black;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+}
+
+input {
+    display: block; 
+    width: 90%;
+    padding: 9px;
+    margin: 12px auto;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-top: 2px solid #48e;
+    outline: none !important;
+    transition: color 0.3s;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #6af;
+    transition: color 0.3s;
+}
+
+
+input:hover {
+    background-color: #26a;
+}
+
+input:hover::placeholder{
+    color: white;
+}
+
+input[type="submit"] {
+    width: 50%;
+    margin-top: 18px;
+    padding: 12px;
+    background: #26a;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+form {
+    width: 85%;
+    margin: auto;
+    background: #015;
+    padding: 30px;
+}
+
+.green {
+    color: lime;
+}
+
+.red {
+    color: red;
+}*/
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-auto-rows:50px;
+}
+
+.grid-container .grid-item {
+    padding: 10px;
+    border: 1px solid #48e;
+    margin: 5px;
+}
+
+#grid-nombre, #grid-email, #grid-materia, #grid-semana {
+    border: 1px solid red;
+}

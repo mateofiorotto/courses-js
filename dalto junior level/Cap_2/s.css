@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+svg {
+    width: 36px;
+    height: 36px;
+    fill: white;
+    margin-right: 16px;
+    transition: color 0.4s ease;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    width: 30%;
+    background-color: black;
+    height: 60px;
+    margin: 100px auto;
+    transition: color 0.4s ease;
+    border: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button:hover {
+    background-color: lime;
+    cursor: pointer;
+    color: black;
+}
+
+button:hover svg {
+    fill: black;
+}
+
+/**/
+
+@media screen and (max-width:1280px) {
+    button {
+        width: 50%;
+        margin: 100px auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    button {
+        width: 75%;
+        margin: 100px auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    button {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width:640px) {
+    button {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
